@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-image: url('imagens/ONE\ PIECE.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+body {
+    background-color: aquamarine;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+header {
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.425);
+}
+
+#join {
+    color: lightblue;
+    padding: 30px;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: lightgreen;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+header > p {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: grey;
+}
+
+footer {
+    position: relative;
+}
+
+.mont {
+    font-size: 1.5em;
+    color: black;
+}
+
+div.dois {
+    background-color: rgb(49, 168, 148);
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 50%;
+    border-radius: 0px 0px 0px 10px;
+    padding: 50px;
+}
+
+b {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+div > p {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.mont {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+strong {
+    background-color: greenyellow;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+
+div.foot {
+    background-color: pink;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    border-radius: 0px 0px 10px 0px;
+    padding: 50px;
+}
+
+.why {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+article {
+    font-size: 1.2em;
+}
